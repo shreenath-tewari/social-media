@@ -1,5 +1,6 @@
 html body {
     background-color: #dfe3ee;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .nav-bar {
@@ -112,7 +113,6 @@ html body {
 .home .home-text {
     font-size: 12px;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     float: left;
 }
@@ -307,7 +307,7 @@ html body {
     width: 476px;
     height: 18px;
     padding: 10px 0 8px 0;
-    margin: 0 12px 0 12px;
+    margin: 0 12px 0 8px;
     display: flex;
     align-items: center;
 }
@@ -332,16 +332,70 @@ html body {
     color: #95a5a6;
 }
 
-.post .top-panel .photo-text {
+.post .top-panel .panel-text {
     font-size: 12px;
+    font-weight: 400;
 }
 
 .separator-post {
     color: #bdc3c7;
 }
 
+.album-link {
+    text-decoration: none;
+}
+
+.post .top-panel .album {
+    display: inline;
+    width: 141px;
+    height: 18px;
+    padding: 4px 0 4px 4px;
+    margin: 0 0 0 2px;
+}
+
+.post .top-panel .album:hover {
+    background-color: #eef1f6;
+}
+
+.fa-id-card-o {
+    color: #324b81;
+}
+
 .divider {
     color: #bdc3c7;
-    width: 452px;
+    width: 476px;
     margin: auto;
+}
+
+.post .post-status {
+    width: 500px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.post .post-status .post-profile-image {
+    width: 40px;
+    height: 40px;
+    margin: 0 0 0 12px;
+}
+
+.post .post-status .status-text {
+    width: 400px;
+    height: 43px;
+    margin: 12px 0 0 0;
+    padding: 18px 12px 14px 12px;
+    border: 0px;
+    resize: none;
+}
+
+.divider-full {
+    color: #bdc3c7;
+    width: 500px;
+}
+
+.container-body .chat {
+    width: 205px;
+    height: 100vm;
+    border-left: 1px solid;
 }
