@@ -291,6 +291,7 @@ html body {
 }
 
 .container-body .news-feed {
+    padding: 12px 0 0 12px;
 }
 
 .container-body .news-feed .post {
@@ -300,4 +301,47 @@ html body {
     border: 1px;
     margin: 0 0 10px 0;
     float: left;
+}
+
+.news-feed .post .top-panel {
+    width: 476px;
+    height: 18px;
+    padding: 10px 0 8px 0;
+    margin: 0 12px 0 12px;
+    display: flex;
+    align-items: center;
+}
+
+.photo-link {
+    text-decoration: none;
+}
+
+.post .top-panel .photo {
+    display: inline;
+    width: 100px;
+    height: 18px;
+    padding: 4px 0 4px 4px;
+    margin: 0 2px 0 0;
+}
+
+.post .top-panel .photo:hover {
+    background-color: #eef1f6;
+}
+
+.fa-camera-retro {
+    color: #95a5a6;
+}
+
+.post .top-panel .photo-text {
+    font-size: 12px;
+}
+
+.separator-post {
+    color: #bdc3c7;
+}
+
+.divider {
+    color: #bdc3c7;
+    width: 452px;
+    margin: auto;
 }
