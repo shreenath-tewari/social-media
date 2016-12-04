@@ -1,0 +1,303 @@
+html body {
+    background-color: #dfe3ee;
+}
+
+.nav-bar {
+    position: relative;
+    height: 42px;
+    width: 100%;
+    background-color: #3b5998;
+}
+
+.nav-bar .segment-1 {
+    width: 1146px;
+    height: 42px;
+    margin: 0 66px 0 66px;
+    padding: 0 205px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .segment-1 .fa-facebook-square {
+    color: #fff;
+    margin: 0 8px 0 0;
+    font-size: 29px;
+    cursor: pointer;
+}
+
+.nav-bar .segment-1 .search {
+    width: 629px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .segment-1 .text-search {
+    width: 393px;
+    height: 20px;
+    padding-top: 2px;
+    padding-left: 5px;
+    border-radius: 2px 0px 0px 2px;
+    border: 0px;
+    resize: none;
+}
+
+.nav-bar .segment-1 .search-button {
+    border-radius: 0px 2px 2px 0px;
+    border: 0px;
+    width: 46px;
+    height: 24px;
+    color: #34495e;
+    background-color: #ecf0f1;
+    justify-content: center;
+}
+
+.nav-bar .segment-1 .profile {
+    width: 91px;
+    height: 27px;
+    padding: 0 10px 0 0;
+}
+
+.nav-bar .segment-1 .profile:hover {
+    background-color: #324b81;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+
+.nav-bar .segment-1 .profile .profile-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .segment-1 .profile .profile-pic-image {
+    width: 24px;
+    height: 24px;
+    border-radius: 1px;
+}
+
+.nav-bar .segment-1 .profile .profile-text {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    margin: 0 0 0 5px;
+    padding: 3px 0 0 0;
+}
+
+.nav-bar .segment-1 .separator {
+    font-size: 27px;
+    color: #324b81;
+    margin: 2px 0 8px 0;
+}
+
+.nav-bar .segment-1 .home {
+    width: 50px;
+    height: 27px;
+    padding: 0 10px 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .segment-1 .home:hover {
+    background-color: #324b81;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+
+.home .home-link {
+    text-decoration: none;
+
+}
+
+.home .home-text {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    float: left;
+}
+
+.nav-bar .segment-1 .status-icons {
+    width: 99px;
+    height: 42px;
+    padding: 0 9px 0 9px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .segment-1 .status-icons .friend-request {
+    width: 33px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-icons .friend-request .friend-request-link {
+    text-decoration: none;
+}
+
+.friend-request-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.friend-request-icon.active {
+    color: #ffffff;
+}
+
+.nav-bar .segment-1 .status-icons .messages {
+    width: 33px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-icons  .messages .messages-link{
+    text-decoration: none;
+}
+
+.messages-icon {
+    font-size: 20px;
+    padding: 0 3px 0 3px;
+    cursor: pointer;
+}
+
+.messages-icon.active {
+    color: #ffffff;
+}
+
+.nav-bar .segment-1 .status-icons .notifications {
+    width: 33px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-icons .notifications .notifications-link {
+    text-decoration: none;
+}
+
+.notifications-icon {
+    font-size: 20px;
+    padding: 0 3px 0 3px;
+    cursor: pointer;
+
+}
+
+.notifications-icon.active {
+    color: #ffffff;
+}
+
+.nav-bar .segment-1 .setting-icons {
+    width: 46px;
+    height: 42px;
+    padding: 0 0 0 9px;
+    display: flex;
+    align-items: center;
+}
+
+.setting-icons .lock {
+    width: 29px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.setting-icons .lock-icon {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.setting-icons .lock-icon.active {
+    color: #ffffff;
+}
+
+.setting-icons .dropdown {
+    width: 29px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.setting-icons .dropdown-icon {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-icon.active {
+    color: #ffffff;
+}
+
+.container-body {
+    margin: 0 66px 0 66px;
+}
+
+.container-body .profile-info {
+    width: 180px;
+    height: 939px;
+    padding: 12px 0 0 1px;
+}
+
+.container-body .left-panel {
+    list-style-type: none;
+}
+
+.container-body .item {
+    width: 172px;
+    height: 16px;
+    padding: 4px 6px 4px 6px;
+    clear: both;
+    float: left;
+}
+
+.container-body .item:hover {
+    background-color: #cdd4e5;
+    border-radius: 2px;
+}
+
+.profile-info .profile-info-link {
+    text-decoration: none;
+}
+
+.profile-info .profile-info-link .view-profile-image {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+.profile-info .profile-info-link .view-profile-text {
+    font-size: 12px;
+    float: left;
+    cursor: pointer;
+}
+
+.profile-info .edit-profile-link {
+    text-decoration: none;
+}
+
+.profile-info .edit-profile-link .fa-pencil {
+    float: left;
+    margin: 0 8px 0 0;
+}
+
+.profile-info .edit-profile-link .edit-profile-text {
+    font-size: 12px;
+    float: left;
+    cursor: pointer;
+}
+
+.container-body .news-feed {
+}
+
+.container-body .news-feed .post {
+    background-color: #ffffff;
+    width: 500px;
+    height: 153px;
+    border: 1px;
+    margin: 0 0 10px 0;
+    float: left;
+}
