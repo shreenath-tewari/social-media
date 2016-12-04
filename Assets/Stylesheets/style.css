@@ -8,12 +8,13 @@ html body {
     height: 42px;
     width: 100%;
     background-color: #3b5998;
+    margin-bottom: 12px;
 }
 
 .nav-bar .segment-1 {
     width: 1146px;
     height: 42px;
-    margin: 0 66px 0 66px;
+    margin: 0 0 0 66px;
     padding: 0 205px 0 0;
     display: flex;
     align-items: center;
@@ -105,9 +106,8 @@ html body {
     cursor: pointer;
 }
 
-.home .home-link {
+.home .home-link:hover {
     text-decoration: none;
-
 }
 
 .home .home-text {
@@ -135,6 +135,7 @@ html body {
 
 .status-icons .friend-request .friend-request-link {
     text-decoration: none;
+    color: #000000;
 }
 
 .friend-request-icon {
@@ -156,6 +157,7 @@ html body {
 
 .status-icons  .messages .messages-link{
     text-decoration: none;
+    color: #000000;
 }
 
 .messages-icon {
@@ -178,13 +180,13 @@ html body {
 
 .status-icons .notifications .notifications-link {
     text-decoration: none;
+    color: #000000;
 }
 
 .notifications-icon {
     font-size: 20px;
     padding: 0 3px 0 3px;
     cursor: pointer;
-
 }
 
 .notifications-icon.active {
@@ -232,17 +234,13 @@ html body {
 }
 
 .container-body {
-    margin: 0 66px 0 66px;
-}
-
-.container-body .profile-info {
-    width: 180px;
-    height: 939px;
-    padding: 12px 0 0 1px;
+    margin: 0 0 0 66px;
 }
 
 .container-body .left-panel {
-    list-style-type: none;
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
 }
 
 .container-body .item {
@@ -258,48 +256,46 @@ html body {
     border-radius: 2px;
 }
 
-.profile-info .profile-info-link {
+.left-panel .profile-info-link:hover {
     text-decoration: none;
 }
 
-.profile-info .profile-info-link .view-profile-image {
+.left-panel .profile-info-link .view-profile-image {
     width: 16px;
     height: 16px;
     float: left;
     margin: 0 6px 0 0;
 }
 
-.profile-info .profile-info-link .view-profile-text {
+.left-panel .profile-info-link .view-profile-text {
     font-size: 12px;
     float: left;
-    cursor: pointer;
 }
 
-.profile-info .edit-profile-link {
+.profile-info .edit-profile-link:hover {
     text-decoration: none;
 }
 
-.profile-info .edit-profile-link .fa-pencil {
+.left-panel .edit-profile-link .fa-pencil {
     float: left;
     margin: 0 8px 0 0;
 }
 
-.profile-info .edit-profile-link .edit-profile-text {
+.left-panel .edit-profile-link .edit-profile-text {
     font-size: 12px;
     float: left;
-    cursor: pointer;
 }
 
 .container-body .news-feed {
-    padding: 12px 0 0 12px;
+    padding: 0 0 0 12px;
 }
 
 .container-body .news-feed .post {
     background-color: #ffffff;
     width: 500px;
-    height: 153px;
+    height: 163px;
     border: 1px;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px 11px;
     float: left;
 }
 
@@ -314,6 +310,7 @@ html body {
 
 .photo-link {
     text-decoration: none;
+    color: #3b5998;
 }
 
 .post .top-panel .photo {
@@ -334,7 +331,7 @@ html body {
 
 .post .top-panel .panel-text {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .separator-post {
@@ -343,6 +340,7 @@ html body {
 
 .album-link {
     text-decoration: none;
+    color: #3b5998;
 }
 
 .post .top-panel .album {
@@ -392,10 +390,127 @@ html body {
 .divider-full {
     color: #ecf0f1;
     width: 500px;
+    margin: 8px 0 0 0;
+}
+
+.post .add-friend {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.post .add-friend-link {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: #95a5a6;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.post .add-friend:hover {
+    background-color: #d8dfea;
+}
+
+.post .add-friend-link:hover {
+    text-decoration: none;
+}
+
+.post .add-emotion {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.post .add-emotion-link {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: #95a5a6;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.post .add-emotion:hover {
+    background-color: #d8dfea;
+}
+
+.post .add-emotion-link:hover {
+    text-decoration: none;
+}
+
+.post .add-location {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.post .add-location-link {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: #95a5a6;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.post .add-location:hover {
+    background-color: #d8dfea;
+}
+
+.post .add-location-link:hover {
+    text-decoration: none;
+}
+
+.post .add-buttons .view {
+    width: 100px;
+    height: 22px;
+    color: #3c4344;
+    margin: 7px 0 0 0;
+    padding: 1px 1px 1px 1px;
+    border: 1px solid #afbdd4;
+    background-color: #d8dfea;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.add-buttons .fa-users {
+    margin: 0 0 0 8px;
+}
+
+.add-buttons .view-text {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 4px 0 4px;
+}
+
+.add-buttons .fa-caret-down {
+    margin: 4px;
+}
+
+.add-buttons .post-button {
+    background-color: #3b5998;
+    border-radius: 1px;
+    margin: 7px 10px 0 10px;
+    border: 1px solid #3b5998;
+    width: 54px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+
+.add-buttons .post-button .post-button-text {
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
 }
 
 .container-body .chat {
     width: 205px;
-    height: 100vm;
+    height: 100vh;
+    float: right;
     border-left: 1px solid;
 }
