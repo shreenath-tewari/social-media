@@ -10,129 +10,135 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     </head>
     <body>
-        <div class="nav-bar">
-            <div class="segment-1">
-                <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-                <div class="search">
-                    <textarea class="text-search" placeholder="Search Facebook"></textarea>
-                    <button type="submit" class="search-button"><i class="fa fa-search fa-1g" aria-hidden="true"></i></button>
-                </div>
-                <div class="profile">
-                    <a href="#" class="profile-link">
-                        <img class="profile-pic-image" src="Assets/Images/profile.jpg" alt="No Pic">
-                        <span class="profile-text">Shreenath</span>
-                    </a>
-                </div>
-                <span class="separator">|</span>
-                <div class="home">
-                    <a href="#" class="home-link">
-                        <span class="home-text">Home</span>
-                    </a>
-                </div>
-                <div class="status-icons">
-                    <div class="friend-request">
-                        <a href="#" class="friend-request-link">
-                            <i class="fa fa-users friend-request-icon fa-1g" aria-hidden="true"></i>
+        <div class="cover"></div>
+            <div class="nav-bar">
+                <div class="segment-1">
+                    <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                    <div class="search">
+                        <textarea class="text-search" placeholder="Search Facebook"></textarea>
+                        <button type="submit" class="search-button"><i class="fa fa-search fa-1g" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="profile">
+                        <a href="#" class="profile-link">
+                            <img class="profile-pic-image" src="Assets/Images/profile.jpg" alt="No Pic">
+                            <span class="profile-text">Shreenath</span>
                         </a>
                     </div>
-                    <div class="messages">
-                        <a href="#" class="messages-link">
-                            <i class="fa fa-comments messages-icon fa-1g" aria-hidden="true"></i>
+                    <span class="separator">|</span>
+                    <div class="home">
+                        <a href="#" class="home-link">
+                            <span class="home-text">Home</span>
                         </a>
                     </div>
-                    <div class="notifications">
-                        <a href="#" class="notifications-link">
-                            <i class="fa fa fa-globe notifications-icon fa-1g" aria-hidden="true"></i>
+                    <div class="status-icons">
+                        <div class="friend-request">
+                            <a href="#" class="friend-request-link">
+                                <i class="fa fa-users friend-request-icon fa-1g" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="messages">
+                            <a href="#" class="messages-link">
+                                <i class="fa fa-comments messages-icon fa-1g" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="notifications">
+                            <a href="#" class="notifications-link">
+                                <i class="fa fa fa-globe notifications-icon fa-1g" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <span class="separator">|</span>
+                    <div class="setting-icons">
+                        <div class="lock">
+                            <i class="fa fa fa-lock lock-icon" aria-hidden="true"></i>
+                        </div>
+                        <div class="dropdown">
+                            <i class="fa fa-caret-down dropdown-icon" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-body">
+                <ul class="left-panel">
+                    <li class="item">
+                        <a href="#" class="profile-info-link">
+                            <img class="view-profile-image" src="Assets/Images/profile.jpg" alt="No Pic">
+                            <span class="view-profile-text">Shreenath Tewari</span>
                         </a>
-                    </div>
-                </div>
-                <span class="separator">|</span>
-                <div class="setting-icons">
-                    <div class="lock">
-                        <i class="fa fa fa-lock lock-icon" aria-hidden="true"></i>
-                    </div>
-                    <div class="dropdown">
-                        <i class="fa fa-caret-down dropdown-icon" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-body">
-            <ul class="left-panel">
-                <li class="item">
-                    <a href="#" class="profile-info-link">
-                        <img class="view-profile-image" src="Assets/Images/profile.jpg" alt="No Pic">
-                        <span class="view-profile-text">Shreenath Tewari</span>
-                    </a>
-                </li>
-                <li class="item">
-                    <a href="#" class="edit-profile-link">
-                        <i class="fa fa-pencil" aria-hidden="true"></i>
-                        <span class="edit-profile-text">Edit Profile</span>
-                    </a>
-                </li>
-            </ul>
-            <div class="news-feed">
-                <div class="post">
-                    <div class="top-panel">
-                        <div class="photo">
-                            <a href="#" class="photo-link">
-                                <i class="fa fa-camera-retro" aria-hidden="true"></i>
-                                <span class="panel-text">Photo/Video</span>
-                            </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="edit-profile-link">
+                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                            <span class="edit-profile-text">Edit Profile</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="news-feed">
+                    <div class="post">
+                        <div class="top-panel">
+                            <div class="photo">
+                                <a href="#" class="photo-link">
+                                    <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                                    <span class="panel-text">Photo/Video</span>
+                                </a>
+                            </div>
+                            <span class="separator-post">|</span>
+                            <div class="album">
+                                <a href="#" class="album-link">
+                                    <i class="fa fa-id-card-o" aria-hidden="true"></i>
+                                    <span class="panel-text">Photo/Video Album</span>
+                                </a>
+                            </div>
                         </div>
-                        <span class="separator-post">|</span>
-                        <div class="album">
-                            <a href="#" class="album-link">
-                                <i class="fa fa-id-card-o" aria-hidden="true"></i>
-                                <span class="panel-text">Photo/Video Album</span>
-                            </a>
+                        <hr class="divider">
+                        <div class="post-status">
+                            <img class="post-profile-image" src="Assets/Images/profile.jpg" alt="No Pic">
+                            <textarea class="status-text" placeholder="What's on your mind?"></textarea>
                         </div>
-                    </div>
-                    <hr class="divider">
-                    <div class="post-status">
-                        <img class="post-profile-image" src="Assets/Images/profile.jpg" alt="No Pic">
-                        <textarea class="status-text" placeholder="What's on your mind?"></textarea>
-                    </div>
-                    <hr class="divider-full">
-                    <div class="add-features">
-                        <div class="add-friend">
-                            <a href="#" class="add-friend-link">
-                                <i class="fa fa-user-plus" aria-hidden="true"></i>
-                            </a>
+                        <hr class="divider-full">
+                        <div class="add-features">
+                            <div class="add-friend">
+                                <a href="#" class="add-friend-link">
+                                    <i class="fa fa-user-plus" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="add-emotion">
+                                <a href="#" class="add-emotion-link">
+                                    <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="add-location">
+                                <a href="#" class="add-location-link">
+                                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                </a>
+                            </div>
                         </div>
-                        <div class="add-emotion">
-                            <a href="#" class="add-emotion-link">
-                                <i class="fa fa-smile-o" aria-hidden="true"></i>
+                        <div class="add-buttons">
+                            <button type="submit" class="post-button">
+                                <span class="post-button-text">Post</span>
+                            </button>
+                            <a href="#" class="view dropdown">
+                                <div class="view-icon"><i class="fa fa-users" aria-hidden="true"></i></div>
+                                <span class="view-text">Friends</span>
+                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-menu-item-top" href="#">Who's seeing this?</a>
+                                    <a class="dropdown-menu-item" id="item-1" href="#" data-item="1"><i class="fa fa fa-globe fa-1g fa-fw public" aria-hidden="true" ></i>Public</a>
+                                    <a class="dropdown-menu-item" id="item-2" href="#" data-item="2"><i class="fa fa-users fa-1g fa-fw friends" aria-hidden="true"></i>Friends</a>
+                                    <a class="dropdown-menu-item" id="item-3" href="#" data-item="3"><i class="fa fa fa-lock fa-fw me" aria-hidden="true"></i>Only Me</a>
+                                </div>
                             </a>
-                        </div>
-                        <div class="add-location">
-                            <a href="#" class="add-location-link">
-                                <i class="fa fa-location-arrow" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="add-buttons">
-                        <button type="submit" class="post-button">
-                            <span class="post-button-text">Post</span>
-                        </button>
-                        <div class="view">
-                            <i class="fa fa-users" aria-hidden="true"></i>
-                            <span class="view-text">Friends</span>
-                            <i class="fa fa-caret-down" aria-hidden="true"></i>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="suggestion">
+                <div class="suggestion">
 
-            </div>
-            <div class="chat">
+                </div>
+                <div class="chat">
 
+                </div>
             </div>
-        </div>
-
         <script src="Assets/Scripts/app.js"></script>
     </body>
 </html>
