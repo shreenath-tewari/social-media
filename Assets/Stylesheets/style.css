@@ -17,7 +17,6 @@ html body {
 }
 
 .nav-bar {
-    position: relative;
     height: 42px;
     width: 100%;
     background-color: #3b5998;
@@ -26,9 +25,7 @@ html body {
 
 .nav-bar .segment-1 {
     width: 1146px;
-    height: 42px;
     margin: 0 0 0 66px;
-    padding: 0 205px 0 0;
     display: flex;
     align-items: center;
 }
@@ -569,6 +566,208 @@ html body {
     font-weight: bold;
     font-size: 12px;
     color: #ffffff;
+}
+
+.news-feed .status {
+    width: 500px;
+    padding: 12px 12px 12px 12px;
+    background-color: #ffffff;
+    clear: both;
+    float: left;
+}
+
+.status-name {
+    margin: 0 0 2px 0;
+    height: 19px;
+    display: inline;
+}
+
+.status .status-profile-image {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #8c8c8c;
+}
+
+.status-name-link {
+    text-decoration: none;
+}
+
+.status .status-name-link:hover {
+    color: #324b81;
+}
+
+.status-name-link .status-name-text {
+    color: #324b81;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.status-name-link .time {
+    font-size: 10px;
+    color: #bdc3c7;
+}
+
+.status .panel-bottom {
+    width: 476px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.panel-bottom .like-icon {
+    margin: 0 20px 0 0;
+}
+
+.panel-bottom .like-panel-text {
+    color: #7f7f7f;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.panel-bottom .like-post {
+    width: 45px;
+    margin: 0 20px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.panel-bottom .fa-thumbs-up {
+    color: #7f7f7f;
+}
+
+.panel-bottom .fa-thumbs-up:hover {
+    color: #324b81;
+}
+
+.panel-bottom .comment-post {
+    margin: 0 20px 0 0;
+    width: 79px;
+    display: flex;
+    align-items: center;
+}
+
+.panel-bottom .comment-panel-text {
+    color: #7f7f7f;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.panel-bottom .fa-comment {
+    color: #7f7f7f;
+}
+
+.panel-bottom .fa-comment:hover {
+    color: #324b81;
+}
+
+.panel-bottom .share-post {
+    display: flex;
+    align-items: center;
+}
+
+.panel-bottom .share-panel-text {
+    color: #7f7f7f;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.panel-bottom .fa-share {
+    color: #7f7f7f;
+}
+
+.panel-bottom .fa-share:hover {
+    color: #324b81;
+}
+
+.status .like-and-comment-nos {
+    width: 476px;
+    margin-top: 8px;
+    padding: 0 0 15px 0;
+}
+
+.like-and-comment-nos .like-nos-text {
+    float: left;
+    font-size: 12px;
+    color: #bdc3c7;
+}
+
+.like-and-comment-nos .comment-nos-text {
+    float: right;
+    font-size: 12px;
+    color: #bdc3c7;
+}
+
+.like-and-comment-nos .share-nos-text {
+    float: right;
+    font-size: 12px;
+    color: #bdc3c7;
+}
+
+.post-comment {
+    background-color: #f6f7f9;
+    width: 500px;
+    padding: 4px 12px 8px 12px;
+    border-top: 1px solid #7f7f7f;
+    clear: both;
+}
+
+.post-comment .commenter-profile-image {
+    width: 32px;
+    height: 32px;
+}
+
+.post-comment .comment-text {
+    width: 395px;
+    height: 14px;
+    padding: 7px 3px 7px 5px;
+    border: 1px solid #bdc3c7;
+    margin-left: 8px;
+    margin-right: 8px;
+    resize: none;
+    font-size: 12px;
+}
+
+.post-comment .comment-post-button {
+    border: 0;
+    background-color: #324b81;
+}
+
+.comment-post-button .comment-post-button-text {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline;
+}
+
+.post-comment .comment-others {
+    padding: 8px 0 4px 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.comment-others .commented-profile-image {
+    width: 32px;
+    height: 32px;
+    padding: 0 10px 0 0;
+}
+
+.comment-others .commented-profile-name-link {
+    color: #324b81;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.comment-others .commented-text {
+    color: #000000;
+    font-size: 12px;
 }
 
 .container-body .chat {
